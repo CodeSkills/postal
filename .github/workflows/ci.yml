@@ -106,8 +106,8 @@ jobs:
           tags: |
             ghcr.io/codeskills/postal:stable
             ghcr.io/codeskills/postal:${{ needs.release-please.outputs.version }}
-          cache-from: type=local,src=/cache/krystal-identity
-          cache-to: type=local,dest=/cache/krystal-identity,mode=max
+          # cache-from: type=local,src=/cache/krystal-identity
+          # cache-to: type=local,dest=/cache/krystal-identity,mode=max
           target: full
           build-args: |
             VERSION=${{ needs.release-please.outputs.version }}
