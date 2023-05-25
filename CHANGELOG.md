@@ -6,7 +6,7 @@ This file contains all the latest changes and updates to Postal.
 
 ### Features
 
-- Add fallback for tracking domain to fallback to any server tracking domain in case none found for current domain.
+- Add fallback for tracking domain to fallback to any server tracking domain in case none found for current domain. 
 
 
 ## [2.1.5](https://github.com/CodeSkills/postal/compare/v2.1.4...2.1.5) (2023-05-25)
