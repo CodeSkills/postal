@@ -2,6 +2,13 @@
 
 This file contains all the latest changes and updates to Postal.
 
+## [2.1.10](https://github.com/CodeSkills/postal/compare/2.1.9...2.1.10) (2023-05-25)
+
+
+### Bug Fixes
+
+* tenporary fix for hosts tracking to work ([f883ecb](https://github.com/CodeSkills/postal/commit/f883ecbf07be16e9368dea13cbb20ebbbea9ac2a))
+
 ## [2.1.9](https://github.com/CodeSkills/postal/compare/v2.1.8...2.1.9) (2023-05-25)
 
 
