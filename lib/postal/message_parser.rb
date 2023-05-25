@@ -10,6 +10,10 @@ module Postal
       @tracked_images = 0
       @domain = @message.server.track_domains.where(domain: @message.domain, dns_status: "OK").first
 
+      if @domain.nil
+        @domain = @message.server.track_domains.where(dns_status: "OK").first
+      end
+      
       return unless @domain
 
       @parsed_output = generate
